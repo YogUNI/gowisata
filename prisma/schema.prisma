@@ -1,0 +1,55 @@
+// This is your Prisma schema file
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+// =====================
+// ADMIN MODEL
+// =====================
+model Admin {
+  id        Int      @id @default(autoincrement())
+  username  String   @unique
+  password  String   // Will be hashed with bcrypt
+  email     String?  @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("admins")
+}
+
+// =====================
+// WISATA MODEL
+// =====================
+model Wisata {
+  id          Int      @id @default(autoincrement())
+  name        String
+  slug        String   @unique
+  description String   @db.Text
+  category    String   // budaya, pantai, alam
+  province    String
+  city        String
+  price       Int      // dalam rupiah
+  priceText   String   // "Rp 100.000" atau "Gratis"
+  
+  // Images
+  mainImage   String   // URL gambar utama
+  images      Json?    // Array of additional images ["url1", "url2"]
+  
+  // SEO & Meta
+  views       Int      @default(0)
+  featured    Boolean  @default(false)
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([province])
+  @@index([category])
+  @@index([slug])
+  @@map("wisata")
+}
