@@ -1,36 +1,105 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Gowisata 🌍
 
-## Getting Started
+**Gowisata** adalah aplikasi web berbasis **Next.js** yang bertujuan untuk menampilkan informasi dan eksplorasi destinasi wisata.  
+Project ini masih dalam tahap pengembangan dan dibuat untuk keperluan pembelajaran serta pengembangan skill web development.
 
-First, run the development server:
+---
 
+## 🚀 Tech Stack
+- **Next.js** (App Router)
+- **React**
+- **Node.js**
+- **CSS / Tailwind CSS** (jika digunakan)
+- **Git & GitHub**
+
+---
+
+## 📦 Installation & Setup
+
+### 1️⃣ Clone Repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/YogUNI/gowisata.git
+cd gowisata
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2️⃣ Install Dependencies
+```bash
+npm install
+# atau
+yarn
+# atau
+pnpm install
+# atau
+bun install
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 3️⃣ Run Development Server
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Buka browser dan akses:
+```
+http://localhost:3000
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Development
+Kamu bisa mulai mengedit halaman utama di:
+```
+app/page.js
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Perubahan akan otomatis ter-update di browser saat file disimpan.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Project ini menggunakan fitur **App Router** dari Next.js.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📁 Project Status
+🚧 **On Progress (Belum Final)**  
+Beberapa hal yang masih dikembangkan:
+- Penyempurnaan UI/UX
+- Penambahan halaman & fitur
+- Pengelolaan data (sementara masih dummy)
+- Optimasi performa
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🌐 Deployment
+Project ini dapat dengan mudah di-deploy menggunakan **Vercel**.
+
+Langkah singkat:
+1. Hubungkan repository GitHub ke Vercel
+2. Framework akan terdeteksi otomatis sebagai **Next.js**
+3. Klik **Deploy**
+
+Setiap perubahan yang di-push ke branch `main` akan otomatis memicu deployment ulang.
+
+---
+
+## 🤝 Contribution
+Kontribusi sangat terbuka.
+
+Langkah kontribusi:
+1. Fork repository ini
+2. Buat branch baru
+3. Lakukan perubahan
+4. Commit & push
+5. Buat Pull Request
+
+---
+
+## 📄 License
+Project ini menggunakan lisensi **MIT** (dapat disesuaikan).
+
+---
+
+## 👤 Author
+**YogUNI**  
+GitHub: https://github.com/YogUNI
+
+---
+
+> Project ini dibuat untuk pembelajaran dan eksplorasi pengembangan aplikasi web menggunakan Next.js.
