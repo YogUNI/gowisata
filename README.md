@@ -97,7 +97,7 @@ Project ini menggunakan lisensi **MIT** (dapat disesuaikan).
 ---
 
 ## 👤 Author
-**YogUNI**  
+**Yoga Gusti Rachmadi**  
 GitHub: https://github.com/YogUNI
 
 ---
