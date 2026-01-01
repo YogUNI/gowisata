@@ -3371,264 +3371,10 @@ export const defaultWisataData = [
 },
 
   // =====================
-  // SULAWESI TENGGARA (131–140)
-  // =====================
-  {
-  id: 131,
-  name: "Pulau Bokori",
-  location: "Konawe",
-  province: "Sulawesi Tenggara",
-  category: "pantai",
-
-  price: "Rp 10.000",
-  priceNum: 10000,
-  htmLokal: "Rp 10.000",
-  htmTuris: "Rp 10.000",
-
-  image: `/images/${slugify("Pulau Bokori")}.jpg`,
-  gallery: [`/images/${slugify("Pulau Bokori")}.jpg`],
-  videoUrl: null,
-
-  description: "Pulau Bokori merupakan destinasi wisata pantai dengan pasir putih dan air laut jernih yang cocok untuk liburan santai.",
-  jamOperasional: "07.00 - 18.00 WIB",
-  fasilitas: ["Area Parkir", "Toilet", "Gazebo", "Warung Makan"],
-  aktivitas: ["Bermain Air", "Fotografi", "Wisata Pantai"],
-  tips: "",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 132,
-  name: "Pantai Nambo",
-  location: "Kendari",
-  province: "Sulawesi Tenggara",
-  category: "pantai",
-
-  price: "Rp 10.000",
-  priceNum: 10000,
-  htmLokal: "Rp 10.000",
-  htmTuris: "Rp 10.000",
-
-  image: `/images/${slugify("Pantai Nambo")}.jpg`,
-  gallery: [`/images/${slugify("Pantai Nambo")}.jpg`],
-  videoUrl: null,
-
-  description: "Pantai Nambo terkenal dengan pasir putihnya yang lembut dan ombak tenang, cocok untuk wisata keluarga.",
-  jamOperasional: "07.00 - 18.00 WIB",
-  fasilitas: ["Area Parkir", "Toilet", "Warung Makan"],
-  aktivitas: ["Bermain Air", "Fotografi", "Wisata Pantai"],
-  tips: "",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 133,
-  name: "Pulau Labengki",
-  location: "Konawe Utara",
-  province: "Sulawesi Tenggara",
-  category: "pantai",
-
-  price: "Rp 20.000",
-  priceNum: 20000,
-  htmLokal: "Rp 20.000",
-  htmTuris: "Rp 20.000",
-
-  image: `/images/${slugify("Pulau Labengki")}.jpg`,
-  gallery: [`/images/${slugify("Pulau Labengki")}.jpg`],
-  videoUrl: null,
-
-  description: "Pulau Labengki dijuluki Raja Ampat-nya Sulawesi dengan gugusan pulau karst dan laut biru yang memukau.",
-  jamOperasional: "07.00 - 17.00 WIB",
-  fasilitas: ["Penginapan", "Perahu Wisata", "Pemandu Lokal"],
-  aktivitas: ["Snorkeling", "Fotografi", "Island Hopping"],
-  tips: "",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 134,
-  name: "Pulau Sombori",
-  location: "Morowali",
-  province: "Sulawesi Tenggara",
-  category: "pantai",
-
-  price: "Rp 25.000",
-  priceNum: 25000,
-  htmLokal: "Rp 25.000",
-  htmTuris: "Rp 25.000",
-
-  image: `/images/${slugify("Pulau Sombori")}.jpg`,
-  gallery: [`/images/${slugify("Pulau Sombori")}.jpg`],
-  videoUrl: null,
-
-  description: "Pulau Sombori menawarkan panorama laut jernih, laguna tersembunyi, dan tebing karst yang eksotis.",
-  jamOperasional: "07.00 - 17.00 WIB",
-  fasilitas: ["Perahu Wisata", "Pemandu Lokal"],
-  aktivitas: ["Snorkeling", "Fotografi", "Wisata Alam"],
-  tips: "",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 135,
-  name: "Pantai Toronipa",
-  location: "Konawe",
-  province: "Sulawesi Tenggara",
-  category: "pantai",
-
-  price: "Rp 5.000",
-  priceNum: 5000,
-  htmLokal: "Rp 5.000",
-  htmTuris: "Rp 5.000",
-
-  image: `/images/${slugify("Pantai Toronipa")}.jpg`,
-  gallery: [`/images/${slugify("Pantai Toronipa")}.jpg`],
-  videoUrl: null,
-
-  description: "Pantai Toronipa merupakan pantai populer dengan garis pantai panjang dan pasir putih yang indah.",
-  jamOperasional: "07.00 - 18.00 WIB",
-  fasilitas: ["Area Parkir", "Toilet", "Warung Makan"],
-  aktivitas: ["Bermain Air", "Fotografi", "Wisata Pantai"],
-  tips: "",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 136,
-  name: "Danau Biru Napabale",
-  location: "Muna",
-  province: "Sulawesi Tenggara",
-  category: "alam",
-
-  price: "Gratis",
-  priceNum: 0,
-  htmLokal: "Gratis",
-  htmTuris: "Gratis",
-
-  image: `/images/${slugify("Danau Biru Napabale")}.jpg`,
-  gallery: [`/images/${slugify("Danau Biru Napabale")}.jpg`],
-  videoUrl: null,
-
-  description: "Danau Biru Napabale memiliki air berwarna biru jernih yang unik dan sangat fotogenik.",
-  jamOperasional: "07.00 - 17.00 WIB",
-  fasilitas: ["Area Parkir"],
-  aktivitas: ["Fotografi", "Wisata Alam"],
-  tips: "",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 137,
-  name: "Benteng Keraton Buton",
-  location: "Baubau",
-  province: "Sulawesi Tenggara",
-  category: "budaya",
-
-  price: "Rp 10.000",
-  priceNum: 10000,
-  htmLokal: "Rp 10.000",
-  htmTuris: "Rp 10.000",
-
-  image: `/images/${slugify("Benteng Keraton Buton")}.jpg`,
-  gallery: [`/images/${slugify("Benteng Keraton Buton")}.jpg`],
-  videoUrl: null,
-
-  description: "Benteng Keraton Buton merupakan benteng terluas di dunia dan menjadi situs sejarah penting.",
-  jamOperasional: "08.00 - 17.00 WIB",
-  fasilitas: ["Area Parkir", "Toilet", "Pemandu Wisata"],
-  aktivitas: ["Wisata Sejarah", "Fotografi", "Edukasi Budaya"],
-  tips: "",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 138,
-  name: "Pantai Lakeba",
-  location: "Baubau",
-  province: "Sulawesi Tenggara",
-  category: "pantai",
-
-  price: "Gratis",
-  priceNum: 0,
-  htmLokal: "Gratis",
-  htmTuris: "Gratis",
-
-  image: `/images/${slugify("Pantai Lakeba")}.jpg`,
-  gallery: [`/images/${slugify("Pantai Lakeba")}.jpg`],
-  videoUrl: null,
-
-  description: "Pantai Lakeba dikenal sebagai tempat favorit menikmati matahari terbenam di Baubau.",
-  jamOperasional: "07.00 - 18.00 WIB",
-  fasilitas: ["Area Parkir", "Warung Makan"],
-  aktivitas: ["Menikmati Sunset", "Fotografi", "Wisata Pantai"],
-  tips: "",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 139,
-  name: "Air Terjun Moramo",
-  location: "Konawe Selatan",
-  province: "Sulawesi Tenggara",
-  category: "alam",
-
-  price: "Rp 15.000",
-  priceNum: 15000,
-  htmLokal: "Rp 15.000",
-  htmTuris: "Rp 15.000",
-
-  image: `/images/${slugify("Air Terjun Moramo")}.jpg`,
-  gallery: [`/images/${slugify("Air Terjun Moramo")}.jpg`],
-  videoUrl: null,
-
-  description: "Air Terjun Moramo memiliki undakan alami yang unik dan suasana hutan yang sejuk.",
-  jamOperasional: "07.00 - 16.00 WIB",
-  fasilitas: ["Area Parkir", "Toilet"],
-  aktivitas: ["Trekking", "Fotografi", "Wisata Alam"],
-  tips: "",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 140,
-  name: "Pulau Hoga",
-  location: "Wakatobi",
-  province: "Sulawesi Tenggara",
-  category: "pantai",
-
-  price: "Rp 20.000",
-  priceNum: 20000,
-  htmLokal: "Rp 20.000",
-  htmTuris: "Rp 20.000",
-
-  image: `/images/${slugify("Pulau Hoga")}.jpg`,
-  gallery: [`/images/${slugify("Pulau Hoga")}.jpg`],
-  videoUrl: null,
-
-  description: "Pulau Hoga merupakan surga bawah laut di Wakatobi yang terkenal dengan keindahan terumbu karangnya.",
-  jamOperasional: "07.00 - 17.00 WIB",
-  fasilitas: ["Penginapan", "Pusat Diving"],
-  aktivitas: ["Snorkeling", "Diving", "Fotografi"],
-  tips: "",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-
-  // =====================
   // SULAWESI TENGAH (141–150)
   // =====================
   {
-  id: 141,
+  id: 131,
   name: "Danau Poso",
   location: "Poso",
   province: "Sulawesi Tengah",
@@ -3653,7 +3399,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 142,
+  id: 132,
   name: "Air Terjun Saluopa",
   location: "Poso",
   province: "Sulawesi Tengah",
@@ -3678,7 +3424,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 143,
+  id: 133,
   name: "Pantai Tanjung Karang",
   location: "Donggala",
   province: "Sulawesi Tengah",
@@ -3703,7 +3449,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 144,
+  id: 134,
   name: "Pantai Talise",
   location: "Palu",
   province: "Sulawesi Tengah",
@@ -3728,7 +3474,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 145,
+  id: 135,
   name: "Danau Tambing",
   location: "Sigi",
   province: "Sulawesi Tengah",
@@ -3753,7 +3499,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 146,
+  id: 136,
   name: "Lembah Bada",
   location: "Poso",
   province: "Sulawesi Tengah",
@@ -3778,7 +3524,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 147,
+  id: 137,
   name: "Pantai Pusat Laut",
   location: "Donggala",
   province: "Sulawesi Tengah",
@@ -3803,7 +3549,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 148,
+  id: 138,
   name: "Air Terjun Wera",
   location: "Sigi",
   province: "Sulawesi Tengah",
@@ -3828,7 +3574,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 149,
+  id: 139,
   name: "Pulau Togean",
   location: "Tojo Una-Una",
   province: "Sulawesi Tengah",
@@ -3853,7 +3599,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 150,
+  id: 140,
   name: "Pantai Malino",
   location: "Donggala",
   province: "Sulawesi Tengah",
@@ -3879,264 +3625,10 @@ export const defaultWisataData = [
 },
 
   // =====================
-  // SULAWESI UTARA (151–160)
-  // =====================
-  {
-  id: 151,
-  name: "Bunaken",
-  location: "Manado",
-  province: "Sulawesi Utara",
-  category: "pantai",
-
-  price: "Rp 50.000",
-  priceNum: 50000,
-  htmLokal: "Rp 50.000",
-  htmTuris: "Rp 50.000",
-
-  image: `/images/${slugify("Bunaken")}.jpg`,
-  gallery: [`/images/${slugify("Bunaken")}.jpg`],
-  videoUrl: null,
-
-  description: "Taman Nasional Bunaken terkenal dengan keindahan terumbu karang dan keanekaragaman hayati bawah laut kelas dunia.",
-  jamOperasional: "07.00 - 17.00 WITA",
-  fasilitas: ["Perahu Wisata", "Penyewaan Alat Selam", "Penginapan"],
-  aktivitas: ["Diving", "Snorkeling", "Fotografi Bawah Laut"],
-  tips: "",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 152,
-  name: "Pantai Malalayang",
-  location: "Manado",
-  province: "Sulawesi Utara",
-  category: "pantai",
-
-  price: "Gratis",
-  priceNum: 0,
-  htmLokal: "Gratis",
-  htmTuris: "Gratis",
-
-  image: `/images/${slugify("Pantai Malalayang")}.jpg`,
-  gallery: [`/images/${slugify("Pantai Malalayang")}.jpg`],
-  videoUrl: null,
-
-  description: "Pantai Malalayang merupakan pantai favorit warga Manado untuk menikmati sunset dan kuliner laut.",
-  jamOperasional: "07.00 - 18.00 WITA",
-  fasilitas: ["Area Parkir", "Warung Makan"],
-  aktivitas: ["Menikmati Sunset", "Kuliner", "Fotografi"],
-  tips: "",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 153,
-  name: "Pulau Siladen",
-  location: "Manado",
-  province: "Sulawesi Utara",
-  category: "pantai",
-
-  price: "Rp 25.000",
-  priceNum: 25000,
-  htmLokal: "Rp 25.000",
-  htmTuris: "Rp 25.000",
-
-  image: `/images/${slugify("Pulau Siladen")}.jpg`,
-  gallery: [`/images/${slugify("Pulau Siladen")}.jpg`],
-  videoUrl: null,
-
-  description: "Pulau Siladen menawarkan pantai berpasir putih dan spot snorkeling dengan air laut yang jernih.",
-  jamOperasional: "07.00 - 17.00 WITA",
-  fasilitas: ["Resort", "Perahu Wisata"],
-  aktivitas: ["Snorkeling", "Bersantai", "Fotografi"],
-  tips: "",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 154,
-  name: "Danau Tondano",
-  location: "Minahasa",
-  province: "Sulawesi Utara",
-  category: "alam",
-
-  price: "Gratis",
-  priceNum: 0,
-  htmLokal: "Gratis",
-  htmTuris: "Gratis",
-
-  image: `/images/${slugify("Danau Tondano")}.jpg`,
-  gallery: [`/images/${slugify("Danau Tondano")}.jpg`],
-  videoUrl: null,
-
-  description: "Danau Tondano merupakan danau terbesar di Sulawesi Utara dengan panorama pegunungan yang indah.",
-  jamOperasional: "07.00 - 18.00 WITA",
-  fasilitas: ["Area Parkir", "Warung Makan"],
-  aktivitas: ["Fotografi", "Bersantai", "Wisata Alam"],
-  tips: "",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 155,
-  name: "Gunung Lokon",
-  location: "Tomohon",
-  province: "Sulawesi Utara",
-  category: "alam",
-
-  price: "Rp 10.000",
-  priceNum: 10000,
-  htmLokal: "Rp 10.000",
-  htmTuris: "Rp 10.000",
-
-  image: `/images/${slugify("Gunung Lokon")}.jpg`,
-  gallery: [`/images/${slugify("Gunung Lokon")}.jpg`],
-  videoUrl: null,
-
-  description: "Gunung Lokon adalah gunung berapi aktif yang populer untuk pendakian dan wisata alam.",
-  jamOperasional: "07.00 - 16.00 WITA",
-  fasilitas: ["Area Parkir", "Pemandu Lokal"],
-  aktivitas: ["Pendakian", "Fotografi", "Wisata Alam"],
-  tips: "",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 156,
-  name: "Bukit Kasih Kanonang",
-  location: "Minahasa",
-  province: "Sulawesi Utara",
-  category: "budaya",
-
-  price: "Rp 10.000",
-  priceNum: 10000,
-  htmLokal: "Rp 10.000",
-  htmTuris: "Rp 10.000",
-
-  image: `/images/${slugify("Bukit Kasih Kanonang")}.jpg`,
-  gallery: [`/images/${slugify("Bukit Kasih Kanonang")}.jpg`],
-  videoUrl: null,
-
-  description: "Bukit Kasih Kanonang merupakan simbol toleransi antar umat beragama di Sulawesi Utara.",
-  jamOperasional: "07.00 - 17.00 WITA",
-  fasilitas: ["Area Parkir", "Tangga Wisata"],
-  aktivitas: ["Wisata Religi", "Fotografi", "Edukasi"],
-  tips: "",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 157,
-  name: "Pantai Paal",
-  location: "Likupang",
-  province: "Sulawesi Utara",
-  category: "pantai",
-
-  price: "Rp 10.000",
-  priceNum: 10000,
-  htmLokal: "Rp 10.000",
-  htmTuris: "Rp 10.000",
-
-  image: `/images/${slugify("Pantai Paal")}.jpg`,
-  gallery: [`/images/${slugify("Pantai Paal")}.jpg`],
-  videoUrl: null,
-
-  description: "Pantai Paal memiliki pasir putih halus dan air laut biru jernih yang cocok untuk liburan.",
-  jamOperasional: "07.00 - 18.00 WITA",
-  fasilitas: ["Area Parkir", "Gazebo"],
-  aktivitas: ["Berenang", "Fotografi", "Wisata Pantai"],
-  tips: "",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 158,
-  name: "Pulau Lihaga",
-  location: "Likupang",
-  province: "Sulawesi Utara",
-  category: "pantai",
-
-  price: "Rp 15.000",
-  priceNum: 15000,
-  htmLokal: "Rp 15.000",
-  htmTuris: "Rp 15.000",
-
-  image: `/images/${slugify("Pulau Lihaga")}.jpg`,
-  gallery: [`/images/${slugify("Pulau Lihaga")}.jpg`],
-  videoUrl: null,
-
-  description: "Pulau Lihaga adalah pulau kecil dengan pasir putih bersih dan laut yang sangat jernih.",
-  jamOperasional: "07.00 - 17.00 WITA",
-  fasilitas: ["Perahu Wisata"],
-  aktivitas: ["Snorkeling", "Bersantai", "Fotografi"],
-  tips: "",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 159,
-  name: "Taman Laut Tumbak",
-  location: "Minahasa Tenggara",
-  province: "Sulawesi Utara",
-  category: "pantai",
-
-  price: "Rp 20.000",
-  priceNum: 20000,
-  htmLokal: "Rp 20.000",
-  htmTuris: "Rp 20.000",
-
-  image: `/images/${slugify("Taman Laut Tumbak")}.jpg`,
-  gallery: [`/images/${slugify("Taman Laut Tumbak")}.jpg`],
-  videoUrl: null,
-
-  description: "Taman Laut Tumbak menawarkan spot snorkeling dengan terumbu karang alami dan ikan warna-warni.",
-  jamOperasional: "07.00 - 17.00 WITA",
-  fasilitas: ["Perahu Wisata", "Pemandu Lokal"],
-  aktivitas: ["Snorkeling", "Diving", "Fotografi"],
-  tips: "",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 160,
-  name: "Museum Negeri Sulut",
-  location: "Manado",
-  province: "Sulawesi Utara",
-  category: "budaya",
-
-  price: "Rp 5.000",
-  priceNum: 5000,
-  htmLokal: "Rp 5.000",
-  htmTuris: "Rp 5.000",
-
-  image: `/images/${slugify("Museum Negeri Sulut")}.jpg`,
-  gallery: [`/images/${slugify("Museum Negeri Sulut")}.jpg`],
-  videoUrl: null,
-
-  description: "Museum Negeri Sulawesi Utara menyimpan koleksi sejarah dan budaya khas Sulawesi Utara.",
-  jamOperasional: "08.00 - 16.00 WITA",
-  fasilitas: ["Area Parkir", "Toilet"],
-  aktivitas: ["Wisata Edukasi", "Sejarah", "Fotografi"],
-  tips: "",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-
-  // =====================
   // SULAWESI SELATAN (161–170)
   // =====================
   {
-  id: 161,
+  id: 141,
   name: "Pantai Losari",
   location: "Makassar",
   province: "Sulawesi Selatan",
@@ -4161,7 +3653,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 162,
+  id: 142,
   name: "Benteng Rotterdam",
   location: "Makassar",
   province: "Sulawesi Selatan",
@@ -4186,7 +3678,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 163,
+  id: 143,
   name: "Pantai Tanjung Bira",
   location: "Bulukumba",
   province: "Sulawesi Selatan",
@@ -4211,7 +3703,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 164,
+  id: 144,
   name: "Pulau Samalona",
   location: "Makassar",
   province: "Sulawesi Selatan",
@@ -4236,7 +3728,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 165,
+  id: 145,
   name: "Pulau Kodingareng Keke",
   location: "Makassar",
   province: "Sulawesi Selatan",
@@ -4261,7 +3753,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 166,
+  id: 146,
   name: "Rammang-Rammang",
   location: "Maros",
   province: "Sulawesi Selatan",
@@ -4286,7 +3778,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 167,
+  id: 147,
   name: "Taman Nasional Bantimurung",
   location: "Maros",
   province: "Sulawesi Selatan",
@@ -4311,7 +3803,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 168,
+  id: 148,
   name: "Toraja Land",
   location: "Tana Toraja",
   province: "Sulawesi Selatan",
@@ -4336,7 +3828,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 169,
+  id: 149,
   name: "Kuburan Batu Lemo",
   location: "Tana Toraja",
   province: "Sulawesi Selatan",
@@ -4361,7 +3853,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 170,
+  id: 150,
   name: "Pantai Akkarena",
   location: "Makassar",
   province: "Sulawesi Selatan",
@@ -4390,7 +3882,7 @@ export const defaultWisataData = [
   // JAMBI (171–180)
   // =====================
   {
-  id: 171,
+  id: 151,
   name: "Danau Gunung Tujuh",
   location: "Kerinci",
   province: "Jambi",
@@ -4415,7 +3907,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 172,
+  id: 152,
   name: "Gunung Kerinci",
   location: "Kerinci",
   province: "Jambi",
@@ -4440,7 +3932,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 173,
+  id: 153,
   name: "Taman Nasional Kerinci Seblat",
   location: "Kerinci",
   province: "Jambi",
@@ -4465,7 +3957,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 174,
+  id: 154,
   name: "Candi Muaro Jambi",
   location: "Muaro Jambi",
   province: "Jambi",
@@ -4490,7 +3982,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 175,
+  id: 155,
   name: "Danau Sipin",
   location: "Jambi",
   province: "Jambi",
@@ -4515,7 +4007,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 176,
+  id: 156,
   name: "Jembatan Gentala Arasy",
   location: "Jambi",
   province: "Jambi",
@@ -4540,7 +4032,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 177,
+  id: 157,
   name: "Air Terjun Telun Berasap",
   location: "Kerinci",
   province: "Jambi",
@@ -4565,7 +4057,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 178,
+  id: 158,
   name: "Bukit Khayangan",
   location: "Sungai Penuh",
   province: "Jambi",
@@ -4590,7 +4082,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 179,
+  id: 159,
   name: "Museum Negeri Jambi",
   location: "Jambi",
   province: "Jambi",
@@ -4615,7 +4107,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 180,
+  id: 160,
   name: "Hutan Pinus Jantho",
   location: "Merangin",
   province: "Jambi",
@@ -4644,7 +4136,7 @@ export const defaultWisataData = [
   // LAMPUNG (181–190)
   // =====================
   {
-  id: 181,
+  id: 161,
   name: "Pantai Mutun",
   location: "Pesawaran",
   province: "Lampung",
@@ -4669,7 +4161,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 182,
+  id: 162,
   name: "Pantai Pahawang",
   location: "Pesawaran",
   province: "Lampung",
@@ -4694,7 +4186,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 183,
+  id: 163,
   name: "Pantai Sari Ringgung",
   location: "Pesawaran",
   province: "Lampung",
@@ -4719,7 +4211,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 184,
+  id: 164,
   name: "Taman Nasional Way Kambas",
   location: "Lampung Timur",
   province: "Lampung",
@@ -4744,7 +4236,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 185,
+  id: 165,
   name: "Bukit Sakura Kemiling",
   location: "Bandar Lampung",
   province: "Lampung",
@@ -4769,7 +4261,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 186,
+  id: 166,
   name: "Danau Ranau",
   location: "Lampung Barat",
   province: "Lampung",
@@ -4794,7 +4286,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 187,
+  id: 167,
   name: "Pantai Tanjung Setia",
   location: "Pesisir Barat",
   province: "Lampung",
@@ -4819,7 +4311,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 188,
+  id: 168,
   name: "Pulau Tangkil",
   location: "Pesawaran",
   province: "Lampung",
@@ -4844,7 +4336,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 189,
+  id: 169,
   name: "Museum Lampung",
   location: "Bandar Lampung",
   province: "Lampung",
@@ -4869,7 +4361,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 190,
+  id: 170,
   name: "Pantai Duta Wisata",
   location: "Bandar Lampung",
   province: "Lampung",
@@ -4899,7 +4391,7 @@ export const defaultWisataData = [
   // MALUKU (191–200)
   // =====================
   {
-  id: 191,
+  id: 171,
   name: "Pantai Natsepa",
   location: "Ambon",
   province: "Maluku",
@@ -4924,7 +4416,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 192,
+  id: 172,
   name: "Pantai Liang",
   location: "Maluku Tengah",
   province: "Maluku",
@@ -4949,7 +4441,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 193,
+  id: 173,
   name: "Pulau Pombo",
   location: "Maluku Tengah",
   province: "Maluku",
@@ -4974,7 +4466,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 194,
+  id: 174,
   name: "Pulau Ora",
   location: "Seram",
   province: "Maluku",
@@ -4999,7 +4491,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 195,
+  id: 175,
   name: "Gunung Binaiya",
   location: "Seram",
   province: "Maluku",
@@ -5024,7 +4516,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 196,
+  id: 176,
   name: "Benteng Amsterdam",
   location: "Maluku Tengah",
   province: "Maluku",
@@ -5049,7 +4541,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 197,
+  id: 177,
   name: "Benteng Victoria",
   location: "Ambon",
   province: "Maluku",
@@ -5074,7 +4566,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 198,
+  id: 178,
   name: "Danau Rana",
   location: "Seram",
   province: "Maluku",
@@ -5099,7 +4591,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 199,
+  id: 179,
   name: "Pantai Pintu Kota",
   location: "Ambon",
   province: "Maluku",
@@ -5124,7 +4616,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 200,
+  id: 180,
   name: "Museum Siwalima",
   location: "Ambon",
   province: "Maluku",
@@ -5154,7 +4646,7 @@ export const defaultWisataData = [
   // KEPULAUAN RIAU (201–210)
   // =====================
   {
-  id: 201,
+  id: 181,
   name: "Pantai Trikora",
   location: "Bintan",
   province: "Kepulauan Riau",
@@ -5179,7 +4671,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 202,
+  id: 182,
   name: "Pulau Penyengat",
   location: "Tanjung Pinang",
   province: "Kepulauan Riau",
@@ -5204,7 +4696,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 203,
+  id: 183,
   name: "Pantai Lagoi",
   location: "Bintan",
   province: "Kepulauan Riau",
@@ -5229,7 +4721,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 204,
+  id: 184,
   name: "Pulau Beralas Pasir",
   location: "Bintan",
   province: "Kepulauan Riau",
@@ -5254,7 +4746,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 205,
+  id: 185,
   name: "Pantai Nongsa",
   location: "Batam",
   province: "Kepulauan Riau",
@@ -5279,7 +4771,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 206,
+  id: 186,
   name: "Jembatan Barelang",
   location: "Batam",
   province: "Kepulauan Riau",
@@ -5304,7 +4796,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 207,
+  id: 187,
   name: "Pantai Melayu",
   location: "Batam",
   province: "Kepulauan Riau",
@@ -5329,7 +4821,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 208,
+  id: 188,
   name: "Pulau Abang",
   location: "Batam",
   province: "Kepulauan Riau",
@@ -5354,7 +4846,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 209,
+  id: 189,
   name: "Bukit Senyum",
   location: "Batam",
   province: "Kepulauan Riau",
@@ -5379,7 +4871,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 210,
+  id: 190,
   name: "Museum Raja Ali Haji",
   location: "Tanjung Pinang",
   province: "Kepulauan Riau",
@@ -5409,7 +4901,7 @@ export const defaultWisataData = [
   // KEPULAUAN BANGKA BELITUNG (211–220)
   // =====================
   {
-  id: 211,
+  id: 191,
   name: "Pantai Tanjung Tinggi",
   location: "Belitung",
   province: "Kepulauan Bangka Belitung",
@@ -5434,7 +4926,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 212,
+  id: 192,
   name: "Pantai Tanjung Kelayang",
   location: "Belitung",
   province: "Kepulauan Bangka Belitung",
@@ -5459,7 +4951,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 213,
+  id: 193,
   name: "Pulau Lengkuas",
   location: "Belitung",
   province: "Kepulauan Bangka Belitung",
@@ -5484,7 +4976,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 214,
+  id: 194,
   name: "Danau Kaolin",
   location: "Belitung",
   province: "Kepulauan Bangka Belitung",
@@ -5509,7 +5001,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 215,
+  id: 195,
   name: "Pantai Parai Tenggiri",
   location: "Bangka",
   province: "Kepulauan Bangka Belitung",
@@ -5534,7 +5026,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 216,
+  id: 196,
   name: "Bukit Menumbing",
   location: "Bangka Barat",
   province: "Kepulauan Bangka Belitung",
@@ -5559,7 +5051,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 217,
+  id: 197,
   name: "Pantai Tikus Emas",
   location: "Bangka",
   province: "Kepulauan Bangka Belitung",
@@ -5584,7 +5076,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 218,
+  id: 198,
   name: "Museum Timah Indonesia",
   location: "Pangkal Pinang",
   province: "Kepulauan Bangka Belitung",
@@ -5609,7 +5101,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 219,
+  id: 199,
   name: "Pantai Batu Bedaun",
   location: "Bangka",
   province: "Kepulauan Bangka Belitung",
@@ -5634,7 +5126,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 220,
+  id: 200,
   name: "Pantai Rambak",
   location: "Bangka",
   province: "Kepulauan Bangka Belitung",
@@ -5663,7 +5155,7 @@ export const defaultWisataData = [
   // KALIMANTAN BARAT (221–225)
   // =====================
   {
-  id: 221,
+  id: 201,
   name: "Danau Sentarum",
   location: "Kapuas Hulu",
   province: "Kalimantan Barat",
@@ -5688,7 +5180,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 222,
+  id: 202,
   name: "Pantai Temajuk",
   location: "Sambas",
   province: "Kalimantan Barat",
@@ -5713,7 +5205,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 223,
+  id: 203,
   name: "Tugu Khatulistiwa",
   location: "Pontianak",
   province: "Kalimantan Barat",
@@ -5738,7 +5230,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 224,
+  id: 204,
   name: "Istana Kadriah",
   location: "Pontianak",
   province: "Kalimantan Barat",
@@ -5763,7 +5255,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 225,
+  id: 205,
   name: "Gunung Palung",
   location: "Ketapang",
   province: "Kalimantan Barat",
@@ -5792,7 +5284,7 @@ export const defaultWisataData = [
   // KALIMANTAN TENGAH (226–230)
   // =====================
   {
-  id: 226,
+  id: 206,
   name: "Taman Nasional Tanjung Puting",
   location: "Kotawaringin Barat",
   province: "Kalimantan Tengah",
@@ -5817,7 +5309,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 227,
+  id: 207,
   name: "Bukit Tangkiling",
   location: "Palangka Raya",
   province: "Kalimantan Tengah",
@@ -5842,7 +5334,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 228,
+  id: 208,
   name: "Danau Tahai",
   location: "Palangka Raya",
   province: "Kalimantan Tengah",
@@ -5867,7 +5359,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 229,
+  id: 209,
   name: "Rumah Betang",
   location: "Palangka Raya",
   province: "Kalimantan Tengah",
@@ -5892,7 +5384,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 230,
+  id: 210,
   name: "Sungai Kahayan",
   location: "Palangka Raya",
   province: "Kalimantan Tengah",
@@ -5921,7 +5413,7 @@ export const defaultWisataData = [
   // KALIMANTAN TIMUR (231–235)
   // =====================
   {
-  id: 231,
+  id: 211,
   name: "Derawan",
   location: "Berau",
   province: "Kalimantan Timur",
@@ -5946,7 +5438,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 232,
+  id: 212,
   name: "Pulau Kakaban",
   location: "Berau",
   province: "Kalimantan Timur",
@@ -5971,7 +5463,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 233,
+  id: 213,
   name: "Danau Labuan Cermin",
   location: "Berau",
   province: "Kalimantan Timur",
@@ -5996,7 +5488,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 234,
+  id: 214,
   name: "Pantai Lamaru",
   location: "Balikpapan",
   province: "Kalimantan Timur",
@@ -6021,7 +5513,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 235,
+  id: 215,
   name: "Museum Mulawarman",
   location: "Kutai Kartanegara",
   province: "Kalimantan Timur",
@@ -6050,7 +5542,7 @@ export const defaultWisataData = [
   // KALIMANTAN UTARA (236–240)
   // =====================
   {
-  id: 236,
+  id: 216,
   name: "Pantai Amal",
   location: "Tarakan",
   province: "Kalimantan Utara",
@@ -6075,7 +5567,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 237,
+  id: 217,
   name: "Hutan Mangrove Tarakan",
   location: "Tarakan",
   province: "Kalimantan Utara",
@@ -6100,7 +5592,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 238,
+  id: 218,
   name: "Air Terjun Gunung Rian",
   location: "Malinau",
   province: "Kalimantan Utara",
@@ -6125,7 +5617,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 239,
+  id: 219,
   name: "Gunung Putih",
   location: "Tana Tidung",
   province: "Kalimantan Utara",
@@ -6150,7 +5642,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 240,
+  id: 210,
   name: "Museum Kesultanan Bulungan",
   location: "Bulungan",
   province: "Kalimantan Utara",
@@ -6179,7 +5671,7 @@ export const defaultWisataData = [
   // KALIMANTAN SELATAN (241–245)
   // =====================
   {
-  id: 241,
+  id: 211,
   name: "Pasar Terapung Lok Baintan",
   location: "Banjar",
   province: "Kalimantan Selatan",
@@ -6204,7 +5696,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 242,
+  id: 212,
   name: "Gunung Meratus",
   location: "Hulu Sungai Tengah",
   province: "Kalimantan Selatan",
@@ -6229,7 +5721,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 243,
+  id: 213,
   name: "Pulau Samber Gelap",
   location: "Kotabaru",
   province: "Kalimantan Selatan",
@@ -6254,7 +5746,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 244,
+  id: 214,
   name: "Pantai Angsana",
   location: "Tanah Bumbu",
   province: "Kalimantan Selatan",
@@ -6279,7 +5771,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 245,
+  id: 215,
   name: "Museum Wasaka",
   location: "Banjarmasin",
   province: "Kalimantan Selatan",
@@ -6305,264 +5797,10 @@ export const defaultWisataData = [
 },
 
   // =====================
-  // BENGKULU (246–255)
-  // =====================
-  {
-  id: 246,
-  name: "Pantai Panjang",
-  location: "Kota Bengkulu",
-  province: "Bengkulu",
-  category: "pantai",
-
-  price: "Gratis",
-  priceNum: 0,
-  htmLokal: "Gratis",
-  htmTuris: "Gratis",
-
-  image: `/images/${slugify("Pantai Panjang")}.jpg`,
-  gallery: [`/images/${slugify("Pantai Panjang")}.jpg`],
-  videoUrl: null,
-
-  description: "Pantai Panjang terkenal dengan garis pantainya yang panjang dan pemandangan matahari terbenam yang indah.",
-  jamOperasional: "07.00 - 18.00 WIB",
-  fasilitas: ["Area Parkir", "Toilet", "Warung Makan"],
-  aktivitas: ["Berenang", "Fotografi", "Wisata Pantai"],
-  tips: "Datang sore hari untuk menikmati sunset yang menawan.",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 247,
-  name: "Benteng Marlborough",
-  location: "Kota Bengkulu",
-  province: "Bengkulu",
-  category: "budaya",
-
-  price: "Rp 10.000",
-  priceNum: 10000,
-  htmLokal: "Rp 10.000",
-  htmTuris: "Rp 10.000",
-
-  image: `/images/${slugify("Benteng Marlborough")}.jpg`,
-  gallery: [`/images/${slugify("Benteng Marlborough")}.jpg`],
-  videoUrl: null,
-
-  description: "Benteng Marlborough adalah benteng peninggalan Inggris yang menjadi ikon sejarah kota Bengkulu.",
-  jamOperasional: "08.00 - 17.00 WIB",
-  fasilitas: ["Area Parkir", "Pemandu", "Toilet"],
-  aktivitas: ["Wisata Sejarah", "Fotografi", "Belajar Budaya"],
-  tips: "Ikuti tur guide untuk memahami sejarah benteng secara lengkap.",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 248,
-  name: "Danau Dendam Tak Sudah",
-  location: "Kota Bengkulu",
-  province: "Bengkulu",
-  category: "alam",
-
-  price: "Gratis",
-  priceNum: 0,
-  htmLokal: "Gratis",
-  htmTuris: "Gratis",
-
-  image: `/images/${slugify("Danau Dendam Tak Sudah")}.jpg`,
-  gallery: [`/images/${slugify("Danau Dendam Tak Sudah")}.jpg`],
-  videoUrl: null,
-
-  description: "Danau Dendam Tak Sudah adalah danau kota yang menyimpan legenda sejarah dan menjadi destinasi wisata alam populer.",
-  jamOperasional: "06.00 - 18.00 WIB",
-  fasilitas: ["Area Parkir", "Jalan Setapak", "Gazebo"],
-  aktivitas: ["Bermain Air", "Fotografi", "Wisata Alam"],
-  tips: "Cocok untuk jalan santai dan piknik keluarga.",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 249,
-  name: "Pantai Tapak Paderi",
-  location: "Kota Bengkulu",
-  province: "Bengkulu",
-  category: "pantai",
-
-  price: "Gratis",
-  priceNum: 0,
-  htmLokal: "Gratis",
-  htmTuris: "Gratis",
-
-  image: `/images/${slugify("Pantai Tapak Paderi")}.jpg`,
-  gallery: [`/images/${slugify("Pantai Tapak Paderi")}.jpg`],
-  videoUrl: null,
-
-  description: "Pantai Tapak Paderi memiliki garis pantai yang indah dan cocok untuk olahraga air maupun bersantai di tepi pantai.",
-  jamOperasional: "07.00 - 18.00 WIB",
-  fasilitas: ["Area Parkir", "Warung Makan", "Toilet"],
-  aktivitas: ["Berenang", "Fotografi", "Wisata Pantai"],
-  tips: "Datang pagi atau sore hari untuk cuaca lebih nyaman.",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 250,
-  name: "Rumah Pengasingan Bung Karno",
-  location: "Kota Bengkulu",
-  province: "Bengkulu",
-  category: "budaya",
-
-  price: "Rp 5.000",
-  priceNum: 5000,
-  htmLokal: "Rp 5.000",
-  htmTuris: "Rp 5.000",
-
-  image: `/images/${slugify("Rumah Pengasingan Bung Karno")}.jpg`,
-  gallery: [`/images/${slugify("Rumah Pengasingan Bung Karno")}.jpg`],
-  videoUrl: null,
-
-  description: "Rumah Pengasingan Bung Karno adalah tempat bersejarah di mana Presiden Soekarno pernah diasingkan, kini menjadi museum.",
-  jamOperasional: "08.00 - 16.00 WIB",
-  fasilitas: ["Area Parkir", "Pemandu", "Toilet"],
-  aktivitas: ["Wisata Sejarah", "Fotografi", "Edukasi"],
-  tips: "Ikuti tur guide untuk mengetahui cerita sejarah secara lengkap.",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 251,
-  name: "Air Terjun Curug Embun",
-  location: "Kepahiang",
-  province: "Bengkulu",
-  category: "alam",
-
-  price: "Rp 10.000",
-  priceNum: 10000,
-  htmLokal: "Rp 10.000",
-  htmTuris: "Rp 10.000",
-
-  image: `/images/${slugify("Air Terjun Curug Embun")}.jpg`,
-  gallery: [`/images/${slugify("Air Terjun Curug Embun")}.jpg`],
-  videoUrl: null,
-
-  description: "Air Terjun Curug Embun memiliki keindahan air yang jernih dan suasana alam yang asri di Kepahiang.",
-  jamOperasional: "06.00 - 17.00 WIB",
-  fasilitas: ["Area Parkir", "Toilet", "Jalan Setapak"],
-  aktivitas: ["Trekking", "Fotografi", "Wisata Alam"],
-  tips: "Gunakan alas kaki yang nyaman untuk trekking.",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 252,
-  name: "Bukit Kaba",
-  location: "Rejang Lebong",
-  province: "Bengkulu",
-  category: "alam",
-
-  price: "Rp 15.000",
-  priceNum: 15000,
-  htmLokal: "Rp 15.000",
-  htmTuris: "Rp 15.000",
-
-  image: `/images/${slugify("Bukit Kaba")}.jpg`,
-  gallery: [`/images/${slugify("Bukit Kaba")}.jpg`],
-  videoUrl: null,
-
-  description: "Bukit Kaba adalah gunung berapi yang menawarkan panorama alam dan trekking menantang di Rejang Lebong.",
-  jamOperasional: "06.00 - 17.00 WIB",
-  fasilitas: ["Area Parkir", "Pemandu Lokal", "Toilet"],
-  aktivitas: ["Trekking", "Fotografi", "Wisata Alam"],
-  tips: "Bawa peralatan hiking lengkap dan air minum.",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 253,
-  name: "Pantai Sungai Suci",
-  location: "Bengkulu Tengah",
-  province: "Bengkulu",
-  category: "pantai",
-
-  price: "Rp 10.000",
-  priceNum: 10000,
-  htmLokal: "Rp 10.000",
-  htmTuris: "Rp 10.000",
-
-  image: `/images/${slugify("Pantai Sungai Suci")}.jpg`,
-  gallery: [`/images/${slugify("Pantai Sungai Suci")}.jpg`],
-  videoUrl: null,
-
-  description: "Pantai Sungai Suci memiliki pasir putih dan ombak tenang, cocok untuk liburan keluarga dan bersantai.",
-  jamOperasional: "07.00 - 18.00 WIB",
-  fasilitas: ["Area Parkir", "Toilet", "Warung Makan"],
-  aktivitas: ["Berenang", "Fotografi", "Wisata Pantai"],
-  tips: "Datang saat pagi atau sore untuk cuaca lebih nyaman.",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 254,
-  name: "Danau Mas Harun Bastari",
-  location: "Rejang Lebong",
-  province: "Bengkulu",
-  category: "alam",
-
-  price: "Rp 5.000",
-  priceNum: 5000,
-  htmLokal: "Rp 5.000",
-  htmTuris: "Rp 5.000",
-
-  image: `/images/${slugify("Danau Mas Harun Bastari")}.jpg`,
-  gallery: [`/images/${slugify("Danau Mas Harun Bastari")}.jpg`],
-  videoUrl: null,
-
-  description: "Danau Mas Harun Bastari adalah danau yang tenang dan indah di Rejang Lebong, cocok untuk wisata alam dan piknik.",
-  jamOperasional: "06.00 - 17.00 WIB",
-  fasilitas: ["Area Parkir", "Jalan Setapak", "Gazebo"],
-  aktivitas: ["Bermain Air", "Fotografi", "Wisata Alam"],
-  tips: "Bawa bekal dan nikmati suasana alam yang tenang.",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 255,
-  name: "Taman Wisata Mangrove Bhadrika",
-  location: "Bengkulu Tengah",
-  province: "Bengkulu",
-  category: "alam",
-
-  price: "Rp 5.000",
-  priceNum: 5000,
-  htmLokal: "Rp 5.000",
-  htmTuris: "Rp 5.000",
-
-  image: `/images/${slugify("Taman Wisata Mangrove Bhadrika")}.jpg`,
-  gallery: [`/images/${slugify("Taman Wisata Mangrove Bhadrika")}.jpg`],
-  videoUrl: null,
-
-  description: "Taman Wisata Mangrove Bhadrika memiliki ekosistem mangrove yang indah dan edukatif di Bengkulu Tengah.",
-  jamOperasional: "06.00 - 17.00 WIB",
-  fasilitas: ["Jalan Setapak", "Papan Informasi", "Spot Fotografi"],
-  aktivitas: ["Wisata Alam", "Fotografi", "Belajar Ekosistem Mangrove"],
-  tips: "Datang pagi hari untuk pengalaman lebih sejuk dan nyaman.",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-
-  // =====================
   // MALUKU UTARA (256–265)
   // =====================
   {
-  id: 256,
+  id: 216,
   name: "Benteng Tolukko",
   location: "Ternate",
   province: "Maluku Utara",
@@ -6587,7 +5825,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 257,
+  id: 217,
   name: "Danau Tolire Besar",
   location: "Ternate",
   province: "Maluku Utara",
@@ -6612,7 +5850,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 258,
+  id: 218,
   name: "Pantai Sulamadaha",
   location: "Ternate",
   province: "Maluku Utara",
@@ -6637,7 +5875,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 259,
+  id: 219,
   name: "Gunung Gamalama",
   location: "Ternate",
   province: "Maluku Utara",
@@ -6662,7 +5900,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 260,
+  id: 220,
   name: "Pulau Maitara",
   location: "Tidore Kepulauan",
   province: "Maluku Utara",
@@ -6687,7 +5925,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 261,
+  id: 221,
   name: "Benteng Oranje",
   location: "Ternate",
   province: "Maluku Utara",
@@ -6712,7 +5950,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 262,
+  id: 222,
   name: "Pantai Jikomalamo",
   location: "Ternate",
   province: "Maluku Utara",
@@ -6737,7 +5975,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 263,
+  id: 223,
   name: "Danau Tolire Kecil",
   location: "Ternate",
   province: "Maluku Utara",
@@ -6762,7 +6000,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 264,
+  id: 224,
   name: "Pulau Dodola",
   location: "Morotai",
   province: "Maluku Utara",
@@ -6787,7 +6025,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 265,
+  id: 225,
   name: "Museum Kedaton Sultan Ternate",
   location: "Ternate",
   province: "Maluku Utara",
@@ -6816,7 +6054,7 @@ export const defaultWisataData = [
   // PAPUA (266–270)
   // =====================
  {
-  id: 266,
+  id: 226,
   name: "Pantai Base-G",
   location: "Jayapura",
   province: "Papua",
@@ -6841,7 +6079,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 267,
+  id: 227,
   name: "Danau Sentani",
   location: "Jayapura",
   province: "Papua",
@@ -6866,7 +6104,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 268,
+  id: 228,
   name: "Bukit Teletubbies",
   location: "Jayapura",
   province: "Papua",
@@ -6891,7 +6129,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 269,
+  id: 229,
   name: "Museum Loka Budaya",
   location: "Jayapura",
   province: "Papua",
@@ -6916,7 +6154,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 270,
+  id: 230,
   name: "Pantai Hamadi",
   location: "Jayapura",
   province: "Papua",
@@ -6945,7 +6183,7 @@ export const defaultWisataData = [
   // PAPUA BARAT (271–275)
   // =====================
   {
-  id: 271,
+  id: 231,
   name: "Pantai Pasir Putih",
   location: "Manokwari",
   province: "Papua Barat",
@@ -6970,7 +6208,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 272,
+  id: 232,
   name: "Pulau Mansinam",
   location: "Manokwari",
   province: "Papua Barat",
@@ -6995,7 +6233,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 273,
+  id: 233,
   name: "Danau Anggi Giji",
   location: "Pegunungan Arfak",
   province: "Papua Barat",
@@ -7020,7 +6258,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 274,
+  id: 234,
   name: "Pegunungan Arfak",
   location: "Manokwari",
   province: "Papua Barat",
@@ -7045,7 +6283,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 275,
+  id: 235,
   name: "Pantai Bakaro",
   location: "Manokwari",
   province: "Papua Barat",
@@ -7074,7 +6312,7 @@ export const defaultWisataData = [
   // PAPUA BARAT DAYA (276–280)
   // =====================
   {
-  id: 276,
+  id: 236,
   name: "Pantai Tanjung Kasuari",
   location: "Sorong",
   province: "Papua Barat Daya",
@@ -7099,7 +6337,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 277,
+  id: 237,
   name: "Hutan Mangrove Klawalu",
   location: "Sorong",
   province: "Papua Barat Daya",
@@ -7124,7 +6362,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 278,
+  id: 238,
   name: "Pantai Saoka",
   location: "Sorong",
   province: "Papua Barat Daya",
@@ -7149,7 +6387,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 279,
+  id: 239,
   name: "Pulau Doom",
   location: "Sorong",
   province: "Papua Barat Daya",
@@ -7174,7 +6412,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 280,
+  id: 240,
   name: "Pantai Mailan Makbon",
   location: "Sorong",
   province: "Papua Barat Daya",
@@ -7203,7 +6441,7 @@ export const defaultWisataData = [
   // PAPUA PEGUNUNGAN (281–285)
   // =====================
   {
-  id: 281,
+  id: 241,
   name: "Lembah Baliem",
   location: "Jayawijaya",
   province: "Papua Pegunungan",
@@ -7228,7 +6466,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 282,
+  id: 242,
   name: "Festival Lembah Baliem",
   location: "Jayawijaya",
   province: "Papua Pegunungan",
@@ -7253,7 +6491,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 283,
+  id: 243,
   name: "Gunung Trikora",
   location: "Jayawijaya",
   province: "Papua Pegunungan",
@@ -7278,7 +6516,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 284,
+  id: 244,
   name: "Desa Wisata Wamena",
   location: "Wamena",
   province: "Papua Pegunungan",
@@ -7303,7 +6541,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 285,
+  id: 245,
   name: "Bukit Habema",
   location: "Jayawijaya",
   province: "Papua Pegunungan",
@@ -7332,7 +6570,7 @@ export const defaultWisataData = [
   // PAPUA SELATAN (286–290)
   // =====================
  {
-  id: 286,
+  id: 246,
   name: "Pantai Lampu Satu",
   location: "Merauke",
   province: "Papua Selatan",
@@ -7357,7 +6595,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 287,
+  id: 247,
   name: "Taman Nasional Wasur",
   location: "Merauke",
   province: "Papua Selatan",
@@ -7382,7 +6620,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 288,
+  id: 248,
   name: "Monumen Kapsul Waktu",
   location: "Merauke",
   province: "Papua Selatan",
@@ -7407,7 +6645,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 289,
+  id: 249,
   name: "Pantai Payum",
   location: "Merauke",
   province: "Papua Selatan",
@@ -7432,7 +6670,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 290,
+  id: 250,
   name: "Rawa Biru",
   location: "Merauke",
   province: "Papua Selatan",
@@ -7461,7 +6699,7 @@ export const defaultWisataData = [
   // PAPUA TENGAH (291–295)
   // =====================
   {
-  id: 291,
+  id: 251,
   name: "Pantai Deiyai",
   location: "Deiyai",
   province: "Papua Tengah",
@@ -7486,7 +6724,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 292,
+  id: 252,
   name: "Danau Tigi",
   location: "Deiyai",
   province: "Papua Tengah",
@@ -7511,7 +6749,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 293,
+  id: 253,
   name: "Bukit Kamu",
   location: "Paniai",
   province: "Papua Tengah",
@@ -7536,7 +6774,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 294,
+  id: 254,
   name: "Danau Paniai",
   location: "Paniai",
   province: "Papua Tengah",
@@ -7561,7 +6799,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 295,
+  id: 255,
   name: "Desa Adat Mee",
   location: "Paniai",
   province: "Papua Tengah",
@@ -7590,7 +6828,7 @@ export const defaultWisataData = [
   // RIAU (296–300)
   // =====================
   {
-  id: 296,
+  id: 256,
   name: "Istana Siak Sri Indrapura",
   location: "Siak",
   province: "Riau",
@@ -7615,7 +6853,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 297,
+  id: 257,
   name: "Danau Raja",
   location: "Indragiri Hulu",
   province: "Riau",
@@ -7640,7 +6878,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 298,
+  id: 258,
   name: "Air Terjun Batang Koban",
   location: "Rokan Hulu",
   province: "Riau",
@@ -7665,7 +6903,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 299,
+  id: 259,
   name: "Pantai Selat Baru",
   location: "Bengkalis",
   province: "Riau",
@@ -7690,7 +6928,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 300,
+  id: 260,
   name: "Taman Rekreasi Alam Mayang",
   location: "Pekanbaru",
   province: "Riau",
@@ -7716,268 +6954,10 @@ export const defaultWisataData = [
 },
 
   // =====================
-  // SULAWESI SELATAN (301–305)
-  // =====================
-  {
-  id: 301,
-  name: "Pantai Losari",
-  location: "Makassar",
-  province: "Sulawesi Selatan",
-  category: "pantai",
-
-  price: "Gratis",
-  priceNum: 0,
-  htmLokal: "Gratis",
-  htmTuris: "Gratis",
-
-  image: `/images/${slugify("Pantai Losari")}.jpg`,
-  gallery: [`/images/${slugify("Pantai Losari")}.jpg`],
-  videoUrl: null,
-
-  description: "Pantai ikonik Kota Makassar yang terkenal dengan pemandangan sunset dan suasana kota pesisir.",
-  jamOperasional: "24 Jam",
-  fasilitas: ["Area Parkir", "Toilet", "Kuliner"],
-  aktivitas: ["Santai", "Kuliner", "Fotografi"],
-  tips: "Datang sore hari untuk menikmati sunset terbaik.",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 302,
-  name: "Benteng Rotterdam",
-  location: "Makassar",
-  province: "Sulawesi Selatan",
-  category: "budaya",
-
-  price: "Rp 5.000",
-  priceNum: 5000,
-  htmLokal: "Rp 5.000",
-  htmTuris: "Rp 5.000",
-
-  image: `/images/${slugify("Benteng Rotterdam")}.jpg`,
-  gallery: [`/images/${slugify("Benteng Rotterdam")}.jpg`],
-  videoUrl: null,
-
-  description: "Benteng peninggalan Kerajaan Gowa yang menjadi saksi sejarah kolonial di Sulawesi Selatan.",
-  jamOperasional: "08.00 - 17.00 WIB",
-  fasilitas: ["Area Parkir", "Toilet", "Museum"],
-  aktivitas: ["Wisata Sejarah", "Edukasi", "Fotografi"],
-  tips: "Gunakan pakaian nyaman karena area cukup luas.",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 303,
-  name: "Tana Toraja",
-  location: "Toraja",
-  province: "Sulawesi Selatan",
-  category: "budaya",
-
-  price: "Rp 20.000",
-  priceNum: 20000,
-  htmLokal: "Rp 20.000",
-  htmTuris: "Rp 20.000",
-
-  image: `/images/${slugify("Tana Toraja")}.jpg`,
-  gallery: [`/images/${slugify("Tana Toraja")}.jpg`],
-  videoUrl: null,
-
-  description: "Destinasi budaya terkenal dengan rumah adat Tongkonan dan tradisi pemakaman unik.",
-  jamOperasional: "24 Jam",
-  fasilitas: ["Area Parkir", "Penginapan", "Pemandu Lokal"],
-  aktivitas: ["Wisata Budaya", "Edukasi", "Fotografi"],
-  tips: "Gunakan jasa pemandu agar memahami adat setempat.",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 304,
-  name: "Pantai Bira",
-  location: "Bulukumba",
-  province: "Sulawesi Selatan",
-  category: "pantai",
-
-  price: "Rp 10.000",
-  priceNum: 10000,
-  htmLokal: "Rp 10.000",
-  htmTuris: "Rp 10.000",
-
-  image: `/images/${slugify("Pantai Bira")}.jpg`,
-  gallery: [`/images/${slugify("Pantai Bira")}.jpg`],
-  videoUrl: null,
-
-  description: "Pantai berpasir putih dengan air laut jernih, salah satu pantai terindah di Sulawesi Selatan.",
-  jamOperasional: "24 Jam",
-  fasilitas: ["Area Parkir", "Toilet", "Penginapan"],
-  aktivitas: ["Berenang", "Snorkeling", "Fotografi"],
-  tips: "Datang pagi untuk menikmati pantai yang masih sepi.",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 305,
-  name: "Air Terjun Bantimurung",
-  location: "Maros",
-  province: "Sulawesi Selatan",
-  category: "alam",
-
-  price: "Rp 30.000",
-  priceNum: 30000,
-  htmLokal: "Rp 30.000",
-  htmTuris: "Rp 30.000",
-
-  image: `/images/${slugify("Air Terjun Bantimurung")}.jpg`,
-  gallery: [`/images/${slugify("Air Terjun Bantimurung")}.jpg`],
-  videoUrl: null,
-
-  description: "Air terjun terkenal dengan taman kupu-kupu dan panorama alam yang sejuk.",
-  jamOperasional: "08.00 - 17.00 WIB",
-  fasilitas: ["Area Parkir", "Toilet", "Warung"],
-  aktivitas: ["Wisata Alam", "Fotografi", "Edukasi"],
-  tips: "Hati-hati licin saat musim hujan.",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-
-  // =====================
-  // SULAWESI TENGAH (306–310)
-  // =====================
-  {
-  id: 306,
-  name: "Danau Poso",
-  location: "Poso",
-  province: "Sulawesi Tengah",
-  category: "alam",
-
-  price: "Gratis",
-  priceNum: 0,
-  htmLokal: "Gratis",
-  htmTuris: "Gratis",
-
-  image: `/images/${slugify("Danau Poso")}.jpg`,
-  gallery: [`/images/${slugify("Danau Poso")}.jpg`],
-  videoUrl: null,
-
-  description: "Danau Poso merupakan salah satu danau terdalam di Indonesia dengan air jernih dan panorama alam yang menenangkan.",
-  jamOperasional: "24 Jam",
-  fasilitas: ["Area Parkir", "Toilet", "Warung"],
-  aktivitas: ["Santai", "Fotografi", "Wisata Alam"],
-  tips: "Waktu terbaik berkunjung adalah pagi atau sore hari.",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 307,
-  name: "Pantai Tanjung Karang",
-  location: "Donggala",
-  province: "Sulawesi Tengah",
-  category: "pantai",
-
-  price: "Rp 10.000",
-  priceNum: 10000,
-  htmLokal: "Rp 10.000",
-  htmTuris: "Rp 10.000",
-
-  image: `/images/${slugify("Pantai Tanjung Karang")}.jpg`,
-  gallery: [`/images/${slugify("Pantai Tanjung Karang")}.jpg`],
-  videoUrl: null,
-
-  description: "Pantai dengan pasir putih dan terumbu karang indah yang cocok untuk snorkeling.",
-  jamOperasional: "24 Jam",
-  fasilitas: ["Area Parkir", "Toilet", "Gazebo"],
-  aktivitas: ["Berenang", "Snorkeling", "Fotografi"],
-  tips: "Bawa perlengkapan snorkeling sendiri untuk pengalaman maksimal.",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 308,
-  name: "Air Terjun Saluopa",
-  location: "Poso",
-  province: "Sulawesi Tengah",
-  category: "alam",
-
-  price: "Rp 5.000",
-  priceNum: 5000,
-  htmLokal: "Rp 5.000",
-  htmTuris: "Rp 5.000",
-
-  image: `/images/${slugify("Air Terjun Saluopa")}.jpg`,
-  gallery: [`/images/${slugify("Air Terjun Saluopa")}.jpg`],
-  videoUrl: null,
-
-  description: "Air terjun bertingkat dengan aliran air jernih yang menjadi favorit wisata alam di Poso.",
-  jamOperasional: "08.00 - 17.00 WIB",
-  fasilitas: ["Area Parkir", "Toilet", "Tangga Akses"],
-  aktivitas: ["Wisata Alam", "Fotografi", "Main Air"],
-  tips: "Gunakan alas kaki anti licin.",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 309,
-  name: "Pulau Dua",
-  location: "Donggala",
-  province: "Sulawesi Tengah",
-  category: "pantai",
-
-  price: "Gratis",
-  priceNum: 0,
-  htmLokal: "Gratis",
-  htmTuris: "Gratis",
-
-  image: `/images/${slugify("Pulau Dua")}.jpg`,
-  gallery: [`/images/${slugify("Pulau Dua")}.jpg`],
-  videoUrl: null,
-
-  description: "Pulau kecil dengan pantai alami dan laut biru jernih yang masih relatif sepi pengunjung.",
-  jamOperasional: "24 Jam",
-  fasilitas: ["Perahu Sewa"],
-  aktivitas: ["Snorkeling", "Fotografi", "Santai"],
-  tips: "Datang saat cuaca cerah dan laut tenang.",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-{
-  id: 310,
-  name: "Museum Sulawesi Tengah",
-  location: "Palu",
-  province: "Sulawesi Tengah",
-  category: "budaya",
-
-  price: "Rp 5.000",
-  priceNum: 5000,
-  htmLokal: "Rp 5.000",
-  htmTuris: "Rp 5.000",
-
-  image: `/images/${slugify("Museum Sulawesi Tengah")}.jpg`,
-  gallery: [`/images/${slugify("Museum Sulawesi Tengah")}.jpg`],
-  videoUrl: null,
-
-  description: "Museum yang menyimpan koleksi sejarah dan budaya khas Sulawesi Tengah.",
-  jamOperasional: "08.00 - 16.00 WIB",
-  fasilitas: ["Area Parkir", "Toilet", "Ruang Pameran"],
-  aktivitas: ["Edukasi", "Wisata Budaya"],
-  tips: "Datang di hari kerja agar lebih leluasa berkeliling.",
-
-  coordinates: null,
-  hotelTerdekat: []
-},
-
-  // =====================
   // SULAWESI TENGGARA (311–315)
   // =====================
   {
-  id: 311,
+  id: 261,
   name: "Pulau Labengki",
   location: "Konawe Utara",
   province: "Sulawesi Tenggara",
@@ -8002,7 +6982,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 312,
+  id: 262,
   name: "Pulau Bokori",
   location: "Konawe",
   province: "Sulawesi Tenggara",
@@ -8027,7 +7007,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 313,
+  id: 263,
   name: "Pantai Nambo",
   location: "Kendari",
   province: "Sulawesi Tenggara",
@@ -8052,7 +7032,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 314,
+  id: 264,
   name: "Air Terjun Moramo",
   location: "Konawe Selatan",
   province: "Sulawesi Tenggara",
@@ -8077,7 +7057,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 315,
+  id: 265,
   name: "Benteng Keraton Buton",
   location: "Baubau",
   province: "Sulawesi Tenggara",
@@ -8106,7 +7086,7 @@ export const defaultWisataData = [
   // SULAWESI UTARA (316–320)
   // =====================
   {
-  id: 316,
+  id: 266,
   name: "Taman Nasional Bunaken",
   location: "Manado",
   province: "Sulawesi Utara",
@@ -8131,7 +7111,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 317,
+  id: 267,
   name: "Pantai Malalayang",
   location: "Manado",
   province: "Sulawesi Utara",
@@ -8156,7 +7136,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 318,
+  id: 268,
   name: "Danau Tondano",
   location: "Minahasa",
   province: "Sulawesi Utara",
@@ -8181,7 +7161,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 319,
+  id: 269,
   name: "Bukit Kasih Kanonang",
   location: "Minahasa",
   province: "Sulawesi Utara",
@@ -8206,7 +7186,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 320,
+  id: 270,
   name: "Pulau Siladen",
   location: "Manado",
   province: "Sulawesi Utara",
@@ -8235,7 +7215,7 @@ export const defaultWisataData = [
   // SUMATERA SELATAN (321–325)
   // =====================
   {
-  id: 321,
+  id: 271,
   name: "Jembatan Ampera",
   location: "Palembang",
   province: "Sumatera Selatan",
@@ -8260,7 +7240,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 322,
+  id: 272,
   name: "Benteng Kuto Besak",
   location: "Palembang",
   province: "Sumatera Selatan",
@@ -8285,7 +7265,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 323,
+  id: 273,
   name: "Pulau Kemaro",
   location: "Palembang",
   province: "Sumatera Selatan",
@@ -8310,7 +7290,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 324,
+  id: 274,
   name: "Danau Ranau",
   location: "OKU Selatan",
   province: "Sumatera Selatan",
@@ -8335,7 +7315,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 325,
+  id: 275,
   name: "Air Terjun Bidadari",
   location: "Lahat",
   province: "Sumatera Selatan",
@@ -8364,7 +7344,7 @@ export const defaultWisataData = [
   // SUMATERA UTARA (326–330)
   // =====================
   {
-  id: 326,
+  id: 276,
   name: "Danau Toba",
   location: "Samosir",
   province: "Sumatera Utara",
@@ -8389,7 +7369,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 327,
+  id: 277,
   name: "Pulau Samosir",
   location: "Samosir",
   province: "Sumatera Utara",
@@ -8414,7 +7394,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 328,
+  id: 278,
   name: "Air Terjun Sipiso-piso",
   location: "Karo",
   province: "Sumatera Utara",
@@ -8439,7 +7419,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 329,
+  id: 279,
   name: "Istana Maimun",
   location: "Medan",
   province: "Sumatera Utara",
@@ -8464,7 +7444,7 @@ export const defaultWisataData = [
   hotelTerdekat: []
 },
 {
-  id: 330,
+  id: 280,
   name: "Pantai Pandan",
   location: "Tapanuli Tengah",
   province: "Sumatera Utara",
@@ -8488,6 +7468,132 @@ export const defaultWisataData = [
   coordinates: null,
   hotelTerdekat: []
 },
+{
+  id: 281,
+  name: "Jam Gadang",
+  location: "Bukittinggi",
+  province: "Sumatera Barat",
+  category: "budaya",
+
+  price: "Gratis",
+  priceNum: 0,
+  htmLokal: "Gratis",
+  htmTuris: "Gratis",
+
+  image: `/images/${slugify("Jam Gadang")}.jpg`,
+  gallery: [`/images/${slugify("Jam Gadang")}.jpg`],
+  videoUrl: null,
+
+  description: "Jam Gadang merupakan ikon Kota Bukittinggi dan simbol sejarah Minangkabau yang selalu ramai dikunjungi wisatawan.",
+  jamOperasional: "24 Jam",
+  fasilitas: ["Area Parkir", "Toilet", "Pedagang UMKM"],
+  aktivitas: ["Fotografi", "Wisata Kota", "Kuliner"],
+  tips: "Datang sore hingga malam hari untuk suasana yang lebih hidup.",
+
+  coordinates: null,
+  hotelTerdekat: []
+},
+{
+  id: 282,
+  name: "Ngarai Sianok",
+  location: "Bukittinggi",
+  province: "Sumatera Barat",
+  category: "alam",
+
+  price: "Gratis",
+  priceNum: 0,
+  htmLokal: "Gratis",
+  htmTuris: "Gratis",
+
+  image: `/images/${slugify("Ngarai Sianok")}.jpg`,
+  gallery: [`/images/${slugify("Ngarai Sianok")}.jpg`],
+  videoUrl: null,
+
+  description: "Ngarai Sianok menyajikan panorama lembah hijau dengan tebing curam yang membentang indah di perbatasan Bukittinggi.",
+  jamOperasional: "06.00 - 18.00 WIB",
+  fasilitas: ["Gardu Pandang", "Area Parkir"],
+  aktivitas: ["Fotografi", "Wisata Alam", "Jalan Santai"],
+  tips: "Datang pagi hari untuk kabut tipis dan cahaya terbaik.",
+
+  coordinates: null,
+  hotelTerdekat: []
+},
+{
+  id: 283,
+  name: "Danau Maninjau",
+  location: "Agam",
+  province: "Sumatera Barat",
+  category: "alam",
+
+  price: "Gratis",
+  priceNum: 0,
+  htmLokal: "Gratis",
+  htmTuris: "Gratis",
+
+  image: `/images/${slugify("Danau Maninjau")}.jpg`,
+  gallery: [`/images/${slugify("Danau Maninjau")}.jpg`],
+  videoUrl: null,
+
+  description: "Danau Maninjau adalah danau vulkanik dengan panorama perbukitan dan kelok 44 yang ikonik.",
+  jamOperasional: "24 Jam",
+  fasilitas: ["Penginapan", "Warung Makan", "Area Parkir"],
+  aktivitas: ["Wisata Alam", "Fotografi", "Bersantai"],
+  tips: "Gunakan kendaraan prima saat melewati Kelok 44.",
+
+  coordinates: null,
+  hotelTerdekat: []
+},
+{
+  id: 284,
+  name: "Pantai Air Manis",
+  location: "Padang",
+  province: "Sumatera Barat",
+  category: "pantai",
+
+  price: "Rp 10.000",
+  priceNum: 10000,
+  htmLokal: "Rp 10.000",
+  htmTuris: "Rp 10.000",
+
+  image: `/images/${slugify("Pantai Air Manis")}.jpg`,
+  gallery: [`/images/${slugify("Pantai Air Manis")}.jpg`],
+  videoUrl: null,
+
+  description: "Pantai Air Manis terkenal dengan legenda Batu Malin Kundang dan pemandangan laut yang khas.",
+  jamOperasional: "07.00 - 18.00 WIB",
+  fasilitas: ["Area Parkir", "Toilet", "Warung Makan"],
+  aktivitas: ["Wisata Pantai", "Edukasi Budaya", "Fotografi"],
+  tips: "Hindari datang saat ombak tinggi.",
+
+  coordinates: null,
+  hotelTerdekat: []
+},
+{
+  id: 285,
+  name: "Istano Basa Pagaruyung",
+  location: "Tanah Datar",
+  province: "Sumatera Barat",
+  category: "budaya",
+
+  price: "Rp 15.000",
+  priceNum: 15000,
+  htmLokal: "Rp 15.000",
+  htmTuris: "Rp 15.000",
+
+  image: `/images/${slugify("Istano Basa Pagaruyung")}.jpg`,
+  gallery: [`/images/${slugify("Istano Basa Pagaruyung")}.jpg`],
+  videoUrl: null,
+
+  description: "Istano Basa Pagaruyung merupakan replika istana kerajaan Minangkabau dengan arsitektur rumah gadang megah.",
+  jamOperasional: "08.00 - 17.00 WIB",
+  fasilitas: ["Area Parkir", "Toilet", "Pemandu Wisata"],
+  aktivitas: ["Wisata Budaya", "Edukasi", "Fotografi"],
+  tips: "Gunakan pakaian sopan dan manfaatkan jasa pemandu.",
+
+  coordinates: null,
+  hotelTerdekat: []
+}
+
   // ... rest of your 330+ destinations
 ];
 
