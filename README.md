@@ -9,7 +9,7 @@ Project ini masih dalam tahap pengembangan dan dibuat untuk keperluan pembelajar
 - **Next.js** (App Router)
 - **React**
 - **Node.js**
-- **CSS / Tailwind CSS** (jika digunakan)
+- **CSS / Tailwind CSS**
 - **Git & GitHub**
 
 ---
